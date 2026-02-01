@@ -1,0 +1,72 @@
+📈 Logistic Regression Model
+
+Pada modul ini, kalian akan menggunakan Logistic Regression.
+Logistic Regression adalah model machine learning yang digunakan untuk prediksi biner (boolean), seperti:
+
+Ya / Tidak
+0 / 1
+True / False
+
+Model ini tidak memprediksi nilai langsung, melainkan peluang (probability) dari suatu kelas, yang kemudian dikonversi menjadi hasil biner menggunakan threshold (biasanya 0.5).
+
+🤔 Kenapa Pakai Logistic Regression?
+Logistic Regression digunakan ketika:
+Output yang ingin diprediksi bersifat kategori biner
+Kita ingin tahu seberapa besar peluang suatu kejadian terjadi
+
+Contoh penggunaan:
+Prediksi lulus / tidak lulus
+Spam / non-spam
+True / False pada suatu kondisi
+
+Kelebihan Logistic Regression:
+Sederhana dan mudah dipahami
+Cepat untuk dilatih
+Output berupa probabilitas → lebih informatif
+
+Namun ⚠️:
+Model ini mengasumsikan hubungan yang relatif sederhana
+Kurang cocok untuk pola yang sangat kompleks atau non-linear
+
+📁 Struktur File dalam Folder Ini
+
+Di dalam folder ini terdapat 5 file utama:
+
+data_generator
+File untuk membuat dataset yang digunakan dalam eksperimen:
+(Boleh di-skip kalau tidak ingin generate data sendiri)
+
+main.ipynb
+Notebook utama untuk:
+Melatih model Logistic Regression
+Menggunakan model untuk melakukan prediksi
+👉 WAJIB dipahami
+
+train
+Dataset training yang digunakan untuk melatih model
+
+test
+Dataset test tanpa label, digunakan untuk melakukan prediksi
+
+test_true
+Dataset test dengan label, digunakan untuk evaluasi dan pengecekan manual
+
+🎯 Tujuan Pembelajaran
+Dengan modul ini, kalian diharapkan:
+Memahami konsep dasar Logistic Regression
+Mengetahui perbedaan regresi linear dan regresi logistik
+Mampu melatih model klasifikasi biner
+Menghasilkan prediksi berupa probabilitas dan label
+Melakukan evaluasi sederhana terhadap hasil prediksi
+
+💪 Penutup
+
+Logistic Regression adalah fondasi penting dalam dunia klasifikasi.
+Walaupun terlihat sederhana, model ini sering jadi baseline di banyak problem nyata.
+
+Ini masih permulaan, bukan batas kemampuan modelnya.
+
+Pelan tapi konsisten 🚀
+Paham konsep > sekadar jalanin kode.
+
+Semangat belajar!! 🔥

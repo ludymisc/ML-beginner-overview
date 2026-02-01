@@ -50,7 +50,7 @@ Happy learning! 🎯
 *Created by: GPT Open AI*
 
 clone this git hub:
-
+```bash
 git init 
-
 git clone https://github.com/ludymisc/ML-beginner-overview.git/
+```

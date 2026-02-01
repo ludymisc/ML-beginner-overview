@@ -4,5 +4,7 @@ requirement :
 - scikit-learn
 
 clone this git hub:
-git init
+
+git init 
+
 git clone https://github.com/ludymisc/ML-beginner-overview.git/

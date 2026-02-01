@@ -1,0 +1,68 @@
+📈 Linear Regression Model
+Pada modul ini, kalian akan menggunakan Linear Regression untuk memprediksi nilai dari dua parameter 
+yang saling berkaitan.
+Linear Regression adalah model machine learning yang digunakan untuk 
+memprediksi nilai kontinu berdasarkan data yang memiliki pola linear dan relatif stabil. 
+Model ini mencoba mencari garis terbaik yang merepresentasikan hubungan antara variabel input dan output.
+
+🤔 Kenapa Pakai Linear Regression?
+Bedanya dengan Excel apa?
+
+Mungkin muncul pertanyaan:
+“Kalau cuma dua parameter, ngapain pakai machine learning? Excel juga bisa.”
+
+Jawabannya: simplisitas dan skalabilitas.
+
+Dengan Linear Regression:
+Kalian cukup melatih (train) model menggunakan data yang tersedia
+Setelah training, model bisa memprediksi nilai baru secara otomatis
+Tidak perlu menulis ulang atau menyesuaikan rumus secara manual
+
+Namun ⚠️:
+
+Jika data training tidak tersedia atau jumlah data sangat sedikit,
+maka rumus manual di Excel justru lebih realistis dan masuk akal untuk digunakan.
+
+Machine learning unggul ketika data tersedia dan prediksi perlu dilakukan berulang atau dalam skala besar.
+
+📁 Struktur File dalam Folder Ini
+
+Di dalam folder ini terdapat 5 file utama:
+
+data_generator
+File untuk membuat dataset yang digunakan dalam eksperimen
+
+(Boleh di-skip kalau tidak ingin generate data sendiri)
+
+main.ipynb
+Notebook utama untuk:
+Melatih model Linear Regression
+Menggunakan model untuk melakukan prediksi
+👉 WAJIB dipahami
+
+train
+Dataset training yang digunakan untuk melatih model
+
+test_true
+Dataset test tanpa label, digunakan untuk melakukan prediksi
+
+test
+Dataset test dengan label, digunakan untuk evaluasi dan pengecekan manual
+
+🎯 Tujuan Pembelajaran
+
+Dengan modul ini, kalian diharapkan:
+Memahami konsep dasar Linear Regression
+Mampu melatih model sederhana
+Menggunakan model untuk melakukan prediksi
+Membandingkan hasil prediksi dengan data asli
+
+💪 Penutup
+
+Ini baru langkah awal dari Linear Regression —
+masih banyak potensi lanjutan seperti optimisasi, evaluasi error, dan implementasi dari nol.
+
+Pelan tapi konsisten 🚀
+Paham konsep > sekadar jalanin kode.
+
+Semangat belajar!! 🔥
